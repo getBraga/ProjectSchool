@@ -1,0 +1,29 @@
+.tabs {
+  margin-top: 1em;
+  a {
+    font-size: 16px;
+  }
+}
+
+.active-link {
+  background: #e5e5e5;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border: 1px solid #0000001f;
+  border-bottom: 0px;
+  span,
+  mat-icon {
+    color: black;
+  }
+}
+mat-icon {
+  margin-right: 5px;
+}
+.container {
+  padding: 15px;
+  border: 1px solid #0000001f;
+  border-top: 0;
+}
+nav {
+  border: 1px solid #ccc;
+}

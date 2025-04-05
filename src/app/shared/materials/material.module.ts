@@ -6,7 +6,8 @@ import { MatButtonModule } from '@angular/material/button';
 import { MatSidenavModule } from '@angular/material/sidenav';
 
 import { MatListModule } from '@angular/material/list';
-import { AppComponent } from '../../app/app.component';
+import { AppComponent } from '@app/app.component';
+
 @NgModule({
   exports: [
     MatToolbarModule,

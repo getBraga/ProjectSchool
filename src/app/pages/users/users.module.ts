@@ -7,7 +7,9 @@ import { MyProfileComponent } from './my-profile/my-profile.component';
 
 import { MyDisciplinesComponent } from './my-disciplines/my-disciplines.component';
 import { MyConquestsComponent } from './my-conquests/my-conquests.component';
-import { UsersMaterialModule } from '../../../shared/materials/users-mat.module';
+
+import { UsersMaterialModule } from '@app/shared/materials/users-mat.module';
+import { SharedModule } from '@app/shared/shared.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,12 @@ import { UsersMaterialModule } from '../../../shared/materials/users-mat.module'
     MyDisciplinesComponent,
     MyConquestsComponent,
   ],
-  imports: [CommonModule, UsersRoutingModule, UsersMaterialModule],
+  imports: [
+    CommonModule,
+    UsersRoutingModule,
+    UsersMaterialModule,
+    SharedModule,
+  ],
 })
 export class UsersModule implements OnInit {
   ngOnInit(): void {

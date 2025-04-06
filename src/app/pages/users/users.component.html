@@ -1,5 +1,9 @@
 <div class="content mat-elevation-z4">
-  <app-toolbar-title title="Users" icon="list"> </app-toolbar-title>
+  <app-toolbar-title title="Users" icon="list">
+    <button mat-icon-button>
+      <mat-icon>share</mat-icon>
+    </button>
+  </app-toolbar-title>
   <mat-tab-nav-panel #tabPanel> </mat-tab-nav-panel>
   <nav mat-tab-nav-bar ngClass="tabs" [tabPanel]="tabPanel">
     <a

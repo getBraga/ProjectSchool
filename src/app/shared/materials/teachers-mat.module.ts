@@ -10,6 +10,8 @@ import { MatIconModule } from '@angular/material/icon';
   providers: [],
   bootstrap: [],
 })
-export class DashboardMaterialModule implements OnInit {
-  ngOnInit(): void {}
+export class TeachersMaterialModule implements OnInit {
+  ngOnInit(): void {
+    console.log('chjam');
+  }
 }

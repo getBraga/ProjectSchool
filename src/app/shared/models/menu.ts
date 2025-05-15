@@ -1,6 +1,6 @@
 import { MenuItem } from './menu-item';
 
-const menuItens: MenuItem[] = [
+export const menuItens: MenuItem[] = [
   {
     link: '/dashboard',
     icon: 'fa-chart-line',
